@@ -71,7 +71,11 @@ $color-alert:       #a94442;
 $black: #222;
 $white: #fff;
 
-$body-font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif !important;
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+$google-font: Lato;
+$body-font-family: $google-font;
+
+//$body-font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif !important;
 
 $header-font-family: $body-font-family;
 
